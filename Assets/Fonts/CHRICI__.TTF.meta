@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1f396b9dec63c4df3a15b100807b197c
+timeCreated: 1570550527
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Christmas Card
+  fontNames:
+  - Christmas Card
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

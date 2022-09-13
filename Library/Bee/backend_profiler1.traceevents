@@ -1,0 +1,529 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662918535177129, "dur":1616, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918535178750, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662918535178792, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662918535178807, "dur":622, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662918535179476, "dur":455, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918535179931, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117171, "dur":131, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117302, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117318, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117322, "dur":56, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117378, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117393, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117400, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117400, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117406, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117482, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117502, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117504, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117509, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117510, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117516, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117517, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117523, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117524, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117530, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117531, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117537, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117538, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117545, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117547, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117554, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117567, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536117623, "dur":1740, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662918535179610, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535179945, "dur":4824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535184773, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662918535184916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535188227, "dur":11020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662918535199301, "dur":10660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662918535209969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535210025, "dur":74567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662918535284647, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1662918535284776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535285385, "dur":15142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1662918535300579, "dur":42131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535342716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535342723, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535345094, "dur":117053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535462152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535462159, "dur":7237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535469476, "dur":34706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535504188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535504195, "dur":8002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535512245, "dur":64301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535576551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535576558, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535578987, "dur":36501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535615494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535615502, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535618596, "dur":65416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535684017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535684025, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535687383, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535688084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535688093, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535689654, "dur":861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535690520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535690529, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535692434, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535693208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535693214, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535695046, "dur":24685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535719753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535719762, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535721658, "dur":31544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535753207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535753214, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535756089, "dur":76280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535832374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535832383, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535834472, "dur":37755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535872232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535872240, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535874047, "dur":106216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535980268, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662918535980278, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662918535982147, "dur":135023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535179702, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535180006, "dur":4762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535184773, "dur":26731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1662918535211508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535211908, "dur":72810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1662918535284801, "dur":22933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535307741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535308275, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535310317, "dur":41743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535352064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535352070, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535354488, "dur":29421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535383914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535383922, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535385932, "dur":52149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535438086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535438093, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535440351, "dur":42108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535482464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535482471, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535484558, "dur":59829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535544394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535544401, "dur":6746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535551215, "dur":41292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535592512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535592519, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535594397, "dur":27897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535622297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535622303, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535624404, "dur":23155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535647566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535647575, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535650863, "dur":52758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535703627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535703634, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535705518, "dur":32106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535737627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535737632, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535739829, "dur":100847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535840682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535840691, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535842900, "dur":123545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535966447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662918535966452, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662918535969632, "dur":147525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535179803, "dur":214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535180017, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535184773, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662918535185176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535196479, "dur":175819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662918535372350, "dur":21414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535393769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535393777, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535395384, "dur":41056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535436443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535436448, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535440220, "dur":44648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535484910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535484919, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535487016, "dur":27798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535514911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535514920, "dur":7984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535522977, "dur":48120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535571104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535571113, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535574277, "dur":30150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535604430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535604436, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535606582, "dur":22964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535629551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535629558, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535631460, "dur":132799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535764264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535764274, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535767054, "dur":107768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535874857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535874865, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535876886, "dur":41784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535918676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535918685, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535920464, "dur":38945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535959474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535959482, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662918535964331, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662918535964377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535964382, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662918535966260, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662918535966346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662918535966350, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662918535969212, "dur":147951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535179576, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535179941, "dur":4831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535184773, "dur":9728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662918535194504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535194508, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662918535199383, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662918535199490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535199541, "dur":154197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662918535353814, "dur":22510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535376329, "dur":82, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535376673, "dur":10994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535387735, "dur":260916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535648656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535648662, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535653039, "dur":107234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535760279, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535760289, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535762727, "dur":37575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535800308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918535800358, "dur":8313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918535808741, "dur":198297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918536007042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662918536007047, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662918536009218, "dur":107945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535179720, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535180010, "dur":4763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535184774, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662918535184941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535195961, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662918535199659, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1662918535199776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535199780, "dur":85359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1662918535285211, "dur":33563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535318778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535318906, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535321804, "dur":47691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535369501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535369511, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535371632, "dur":83444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535455083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535455092, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535457988, "dur":47158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535505151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535505159, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535509972, "dur":21929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535531907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535531914, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535533941, "dur":30315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535564262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535564269, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535568311, "dur":32569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535600887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535600897, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535604149, "dur":139912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535744066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535744074, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535747030, "dur":146755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535893791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918535893800, "dur":14083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918535907938, "dur":152465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918536060429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662918536060434, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662918536061913, "dur":55247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535179743, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535180013, "dur":4757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535184774, "dur":9139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662918535193916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535194064, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662918535197973, "dur":9543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662918535207521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535207529, "dur":77003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662918535284584, "dur":116437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1662918535401028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535401044, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1662918535405259, "dur":71973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535477240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535477250, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535480939, "dur":23588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535504530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535504535, "dur":7242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535511848, "dur":54473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535566358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535566366, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535568530, "dur":34257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535602794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535602805, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535604982, "dur":23733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535628721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535628728, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535630878, "dur":51967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535682850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535682858, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535685768, "dur":50870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535736645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535736654, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535738744, "dur":247663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535986410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662918535986416, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662918535989063, "dur":128108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535179820, "dur":201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535180021, "dur":4761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535184782, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1662918535184928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535190760, "dur":177956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1662918535368808, "dur":23677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535392490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535392530, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535395248, "dur":262805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535658059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535658066, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535660339, "dur":110400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535770745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535770754, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535772937, "dur":32421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535805364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918535805371, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918535807185, "dur":201888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918536009077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662918536009083, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662918536011344, "dur":105817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535179838, "dur":214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535180052, "dur":4723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535184775, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662918535184931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535190968, "dur":9507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662918535200545, "dur":84317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535284867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535285508, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535289676, "dur":43198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535332881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535332891, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535335105, "dur":32626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535367738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535367746, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535370204, "dur":77668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535447905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535447911, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535450122, "dur":41821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535491949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535491956, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535494174, "dur":42462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535536641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535536648, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535538453, "dur":28160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535566616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535566622, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535568595, "dur":25279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535593920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535593926, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535596671, "dur":23492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535620168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535620174, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535622101, "dur":40088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535662195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535662202, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535665515, "dur":61918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535727438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535727446, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535730809, "dur":2233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535733054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535733062, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535735033, "dur":114980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535850017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535850023, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535851830, "dur":112789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535964622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535964632, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662918535968303, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1662918535968449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662918535968477, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1662918535970048, "dur":147114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535179861, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535180107, "dur":4669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535184776, "dur":9130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662918535193908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535193913, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662918535198382, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1662918535198543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535199516, "dur":85135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1662918535284703, "dur":63466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535348174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535348182, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535350251, "dur":86175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535436431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535436439, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535438524, "dur":117749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535556280, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535556289, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535558484, "dur":108986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535667475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535667482, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535669871, "dur":227924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535897801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918535897809, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918535899799, "dur":214144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918536113946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662918536113951, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662918536117115, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1662918536117117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535179922, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535180160, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535184773, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1662918535185024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535196071, "dur":88498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1662918535284630, "dur":33437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate.exe" }}
+,{ "pid":12345, "tid":10, "ts":1662918535318071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535318077, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate.exe" }}
+,{ "pid":12345, "tid":10, "ts":1662918535320541, "dur":28758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535349305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535349314, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535351452, "dur":43899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535395356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535395365, "dur":7320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535402737, "dur":52447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535455189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535455197, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535458301, "dur":34227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535492531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535492537, "dur":20178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535512760, "dur":22488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535535254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535535264, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535537348, "dur":31871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535569223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535569233, "dur":5522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535574835, "dur":33229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535608068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535608075, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535610265, "dur":26180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535636450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535636458, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535638574, "dur":44430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535683020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535683025, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535685923, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535686964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535686969, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535689002, "dur":58272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535747277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535747284, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535749095, "dur":100298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535849399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535849406, "dur":13091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535862542, "dur":116668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535979214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662918535979220, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662918535981041, "dur":136116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535179935, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535179935, "dur":4829, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535184773, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662918535184776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535186329, "dur":798, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662918535187131, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662918535187195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535187519, "dur":10364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662918535197886, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1662918535198103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535199769, "dur":84665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1662918535284492, "dur":93823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535378319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535378414, "dur":7138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535385632, "dur":52707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535438342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535438347, "dur":6619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535445033, "dur":62259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535507299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535507308, "dur":6391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535513770, "dur":58439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535572214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535572221, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535574526, "dur":61919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535636450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535636457, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535638908, "dur":41709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535680623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535680632, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535682525, "dur":938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535683465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535683469, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535686889, "dur":50497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535737390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535737395, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535739560, "dur":59598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535799164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535799171, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535801335, "dur":172143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535973482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662918535973488, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662918535975094, "dur":142066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535179963, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535179964, "dur":4811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535184775, "dur":9126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662918535193906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535193913, "dur":5540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662918535199520, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1662918535199623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535199627, "dur":84873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1662918535284555, "dur":359727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535644286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535644292, "dur":23195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535667541, "dur":74429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535741976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535741985, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535744097, "dur":185565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535929667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535929674, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662918535932119, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535932266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535932815, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535934406, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1662918535934469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535934550, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1662918535936354, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535936404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535936437, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535938185, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535938239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535938245, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535939542, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1662918535939586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535939591, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1662918535943846, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535943921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535943928, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535945720, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535945772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535945777, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535947482, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535947527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535947532, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1662918535949284, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535949334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535949339, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1662918535951111, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535951236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535951241, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535952816, "dur":8308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535961129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535961135, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1662918535963023, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1662918535963072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535963077, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1662918535964546, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1662918535964592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535964596, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1662918535966298, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/SnowballFightv2/QuantumCrate_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1662918535966344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662918535966349, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/SnowballFightv2/QuantumCrate_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1662918535968420, "dur":148739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662918536120813, "dur":1836, "ph":"X", "name": "ProfilerWriteOutput" }
+,

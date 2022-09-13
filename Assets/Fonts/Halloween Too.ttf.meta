@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3ec6d3737560c48d5afd58807c1f9c8c
+timeCreated: 1570550528
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Halloween Too
+  fontNames:
+  - Halloween Too
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
