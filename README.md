@@ -6,3 +6,5 @@ After creating 'Ninja Blob' I decided to use another tutorial from Game Plus Jam
 Similar to my first game, I decided to design my own sprites on Photoshop to use. I did this and created a Halloween reskin of the snowball fight game I created using the tutorial. 
 
 Although this game was relatively simple, it created a good foundation of knowledge I could work from to create other games, which has proven invaluable.
+
+To run the game, go into the 'builds' folder. From here, you will find several builds of the game, the most recent of which will be the best. Download the folder and run the .exe file to play the game.
